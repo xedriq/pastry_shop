@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <!-- Semantic ui -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Charlotte's Patisserie</title>
+  </head>
+  <body id="home">
+    <!-- Menu -->
+    <nav class="nav">
+      <div class="nav-items container">
+        <h1 class="logo"><a href="#home"><span>Charlotte's Patisserie</span></a></h1>
+        <a href="#" class="hide-desktop"><img class="hamburger" src="images\burger.png" alt="toggle menu" id="menu"></a>
+      </div>
+      <ul class="show-desktop hide-mobile container" id="mobile-menu">
+          <li class="exit-btn hide-desktop">
+            <span><img id="exit" src="images\close_button.png" alt="exit menu"></span>
+          </li>
+          <li>
+            <span><a class="scroll" id="scroll" href="#home">home</a></span>
+          </li>
+          <li>
+            <span><a class="scroll" id="scroll" href="#about-us">about us</a></span>
+          </li>
+          <li>
+            <span><a class="scroll" id="scroll" href="#menu-page">menu</a></span>
+          </li>
+          <li>
+            <span><a class="scroll" id="scroll" href="#find-us">find us</a></span>
+          </li>
+          <li>
+            <span><a class="reference" href="#">reference</a></span>
+          </li>
+        </ul>
+      <div class="nav-bg show transition">
+      </div>
+    </nav>
+
+    <section>
+      <div class="hero-container">
+        <img src="images\scroll down.svg" alt="scroll down" class="scroll-arrow hide-mobile show-desktop">
+        <img id="hero1" src="images\xenia-bogarova-418752-unsplash.jpg" alt="xenia-bogarova-418752-unsplash">
+        <div class="sub-head">Delight your day in a sweet way.</div>
+      </div>
+    </section>
+
+    <div id="about-us" class="about-us-container container">
+
+      <h1 class="about-us-text container">About Us</h1>
+      <ul>
+        <li>
+          <img src="images\brooke-lark-261287-unsplash.jpg" alt="brooke-lark-261287-unsplash">
+          <h1>Fresh</h1>
+          <p>Experience the fresh aroma and delectable flavors in every bite. Made naturally for a happy tummy.</p>
+        </li>
+        <li>
+          <img src="images\jordane-mathieu-540010-unsplash.jpg" alt="jordane-mathieu-540010-unsplash">
+          <h1>Handmade</h1>
+          <p>A simple craft turned into art, art into masterpieces, masterpieces carefully made and perfected by hand to satisfy your cravings.</p>
+        </li>
+        <li>
+          <img src="images\kyle-head-764720-unsplash.jpg" alt="kyle-head-764720-unsplash">
+          <h1>Love</h1>
+          <p>Each sumptuous treat is prepared with love to give a sprinkle of joy and a bit of heaven.</p>
+        </li>
+      </ul>
+
+    </div>
+
+    <div id="menu-page" class="menu-container">
+      <div class="menu-head">
+        <h1 class="menu-text light">Menu</h1>
+        <img class="menu-bg" src="images\brigitte-tohm-147669-unsplash.jpg" alt="brigitte-tohm-147669-unsplash">
+      </div>
+      <div class="choose container">
+        <h2>We offer a huge range of delicacies, all faithfully recreated daily<br>using only the freshest ingredients.</h2>
+      </div>
+      <div class="container menu-list">
+        <ul>
+          <li>
+            <div class="menu-frame">
+              <!-- <a href="#"> -->
+                <h1 class="menu-names light">Pastries</h1>
+                <img  id="pastries" class="menu-image-bg  transition" src="images\hello-i-m-nik-656377-unsplash.jpg" alt="hello-i-m-nik-656377-unsplash">
+              <!-- </a> -->
+            </div>
+            <div class="ui modal pastries">
+              <div class="header">Pastries</div>
+              <div class=" scrolling content">
+                <table>
+                  <tr>
+                    <td>Cheese & Green Onion Scone</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Tropical Scon</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Almond Croissant</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Chocolate Almond Croissant</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Herb & Cheese Bun</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Éclairs</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                </table>
+              </div>
+                <p class="container">*For gift packages and bulk orders, please get in touch with us.</p>
+              <div class="actions container">
+                <div class="ui cancel button transition send-button">Close</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-frame">
+              <!-- <a href="#"> -->
+                <h1 class="menu-names light">Cakes and Tarts</h1>
+                <img id="cakes-tarts" class="menu-image-bg transition" src="images\alexandra-gornago-792928-unsplash.jpg" alt="alexandra-gornago-792928-unsplash">
+              <!-- </a> -->
+            </div>
+            <div class="ui modal cakes-tarts">
+              <div class="header">Cakes and Tarts</div>
+              <div class="scrolling content">
+                <table>
+                  <tr>
+                    <td>Apple Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Yuzu Lemon Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Mango Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Lemon Tart with Italian Meringue</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Honey Pistachio Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Roasted Cherry Chocolate Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Apple Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Yuzu Lemon Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Mango Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Lemon Tart with Italian Meringue</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Honey Pistachio Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Roasted Cherry Chocolate Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Apple Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Yuzu Lemon Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Mango Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Lemon Tart with Italian Meringue</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Honey Pistachio Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Roasted Cherry Chocolate Tart</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  </table>
+              </div>
+              <p class="container">*For specialty cakes, please get in touch with us. Let's make it happen!</p>
+
+              <div class="actions container">
+                <div class="ui approve button transition send-button">Close</div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-frame">
+              <!-- <a href="#"> -->
+                <h1 class="menu-names light">Bread</h1>
+                <img id="bread" class="menu-image-bg transition" src="images\andrew-wong-1238236-unsplash.jpg" alt="andrew-wong-1238236-unsplash">
+              <!-- </a> -->
+            </div>
+            <div class="ui modal  bread">
+              <div class="header">Bread</div>
+              <div class="content">
+                <table>
+                  <tr>
+                    <td>Ciabatta</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Whole-Wheat Bread</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Sourdough</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Rye Bread</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Pita Bread</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                  <tr>
+                    <td>Focaccia</td>
+                    <td>&#8369;100</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="actions container">
+                <div class="ui approve button transition send-button">Close</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="find-us" class="find-us-container">
+      <div class="find-us-title">
+        <h1 class="find-us-text light container">Find Us</h1>
+        <img src="images\roman-kraft-156096-unsplash.jpg" alt="roman-kraft-156096-unsplash">
+      </div>
+      <div class="brand-address container">
+        <h1 class="light">Charlotte's Patisserie</h1>
+        <p class="light">39712 Becker Mountains, New Adrielburgh<br>Berkshire, Montana 53296<br>+63 917 555 1234</p>
+      </div>
+      <div id="map" class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1929.8672850294893!2d121.04356197594335!3d14.670998997426839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQwJzE1LjYiTiAxMjHCsDAyJzQwLjgiRQ!5e0!3m2!1sen!2sph!4v1548345200048" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <h1 class="light container">Get in touch</h1>
+      <div class="contact-form-container container">
+        <div class="contact-form ui input form">
+          <div class="ui left icon input">
+            <input type="text" name="name" placeholder="Name">
+            <i class="user icon"></i>
+          </div>
+          <div class="ui left icon input">
+            <input type="email" name="email" placeholder="Email">
+            <i class="at icon"></i>
+          </div>
+          <div class="ui left icon input">
+            <textarea name="message" rows="8" placeholder="Message"></textarea><br>
+            <!-- <i class="top right corner pencil icon"></i> -->
+          </div>
+          <div class="send-button transition">
+            <button id="ty-contact-btn" class="ui primary button" type="button" name="Send">Send</button>
+            <div class="ui mini modal" id="ty-contact">
+              <div class="header">We received you message!</div>
+              <div class="content">
+                <p>Thank you for contacting us.</p>
+              </div>
+              <div class="actions">
+                <div class="ui approve button">Ok</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-icon">
+          <a href="#">
+            <i class="big circular facebook f icon transition"></i>
+          </a>
+          <a href="#">
+            <i class="big circular instagram icon transition"></i>
+          </a>
+          <a href="#">
+            <i class="big circular twitter icon transition"></i>
+          </a>
+        </div>
+      </div>
+      <div class="copyrights">
+        <p class="light container">
+          this website is created in partial fullfilment of a course in UPSITF <br>
+          desinged and developed by<br>Cedrick Tabares &copy <script type="text/javascript">
+          document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+    <!-- my js -->
+    <script type="text/javascript" src="js\main.js">
+
+    </script>
+
+    <div class="ui modal reference">
+      <div class="header">References</div>
+      <div class="scrolling content">
+        <table>
+          <tr>
+            <td><a id="bwdi" href="#">Bakery web design inspiration</a></td>
+          </tr>
+          <tr>
+            <td><a id="bb" href="#">Beaucoup Bakery</a></td>
+          </tr>
+          <!-- <tr>
+            <td><a id="hoe" href="#">Haven on Earth Bakery</a></td>
+          </tr> -->
+          </table>
+      </div>
+  </body>
+
+</html>
